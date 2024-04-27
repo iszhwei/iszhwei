@@ -1,0 +1,38 @@
+import{_ as s}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as l,b as a,a as p}from"./app-9OmaxHRC.js";const e={},o=p(`<div class="language-c line-numbers-mode" data-ext="c"><pre class="shiki one-dark-pro" style="background-color:#282c34;" tabindex="0"><code><span class="line"><span style="color:#C678DD;">#include</span><span style="color:#ABB2BF;"> </span><span style="color:#98C379;">&lt;stdio.h&gt;</span></span>
+<span class="line"><span style="color:#C678DD;">#include</span><span style="color:#ABB2BF;"> </span><span style="color:#98C379;">&lt;iostream&gt;</span><span style="color:#7F848E;font-style:italic;">//C++头文件没有加.h，因为C++头文件都是用模板写的，</span></span>
+<span class="line"><span style="color:#ABB2BF;">                   </span><span style="color:#7F848E;font-style:italic;">//而模板有个特点：必须要知道所有实现之后才能正常编译</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;">using namespace std;</span><span style="color:#7F848E;font-style:italic;">//命名空间</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;">//函数的声明</span></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;">//函数声明可以有多次，函数定义只能有一次</span></span>
+<span class="line"><span style="color:#C678DD;">void</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">test</span><span style="color:#ABB2BF;">();</span></span>
+<span class="line"><span style="color:#C678DD;">void</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">test</span><span style="color:#ABB2BF;">();</span></span>
+<span class="line"><span style="color:#C678DD;">void</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">test</span><span style="color:#ABB2BF;">();</span></span>
+<span class="line"><span style="color:#C678DD;">void</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">test</span><span style="color:#ABB2BF;">();</span></span>
+<span class="line"><span style="color:#C678DD;">void</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">test</span><span style="color:#ABB2BF;">();</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#C678DD;">void</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">test</span><span style="color:#ABB2BF;">()</span></span>
+<span class="line"><span style="color:#ABB2BF;">{</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#C678DD;">int</span><span style="color:#ABB2BF;"> </span><span style="color:#61AFEF;">main</span><span style="color:#ABB2BF;">(</span><span style="color:#C678DD;">int</span><span style="color:#E06C75;"> </span><span style="color:#E06C75;font-style:italic;">argc</span><span style="color:#ABB2BF;">,</span><span style="color:#E06C75;"> </span><span style="color:#C678DD;">char</span><span style="color:#E06C75;"> </span><span style="color:#C678DD;">**</span><span style="color:#E06C75;font-style:italic;">argv</span><span style="color:#ABB2BF;">)</span></span>
+<span class="line"><span style="color:#ABB2BF;">{</span></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;">    /* &amp;10;//error,字面值常量,右值，不能取地址 */</span></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;">    /* &amp;&quot;Hello, world&quot;;//ok */</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#7F848E;font-style:italic;">//cout,标准输出</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#7F848E;font-style:italic;">//&lt;&lt;,输出流运算符</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#7F848E;font-style:italic;">//&quot;Hello world&quot;,字符串常量</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#7F848E;font-style:italic;">//endl end of line</span></span>
+<span class="line"><span style="color:#ABB2BF;">    cout </span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;"> </span><span style="color:#98C379;">&quot;Hello world&quot;</span><span style="color:#ABB2BF;"> </span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;"> endl;</span></span>
+<span class="line"><span style="color:#ABB2BF;">    operator</span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;">(cout, </span><span style="color:#98C379;">&quot;Hello world&quot;</span><span style="color:#ABB2BF;">).</span><span style="color:#E06C75;">operator</span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;">(endl);</span><span style="color:#7F848E;font-style:italic;">//运算符重载</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#C678DD;">int</span><span style="color:#ABB2BF;"> number </span><span style="color:#C678DD;">=</span><span style="color:#ABB2BF;"> </span><span style="color:#D19A66;">0</span><span style="color:#ABB2BF;">;</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#7F848E;font-style:italic;">//cin，标准输入</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#7F848E;font-style:italic;">//&gt;&gt;，输入流运算符</span></span>
+<span class="line"><span style="color:#ABB2BF;">    cin </span><span style="color:#C678DD;">&gt;&gt;</span><span style="color:#ABB2BF;"> number;</span></span>
+<span class="line"><span style="color:#ABB2BF;">    cout </span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;"> </span><span style="color:#98C379;">&quot;number = &quot;</span><span style="color:#ABB2BF;"> </span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;"> number </span><span style="color:#C678DD;">&lt;&lt;</span><span style="color:#ABB2BF;"> endl;</span></span>
+<span class="line"><span style="color:#ABB2BF;">    </span><span style="color:#C678DD;">return</span><span style="color:#ABB2BF;"> </span><span style="color:#D19A66;">0</span><span style="color:#ABB2BF;">;</span></span>
+<span class="line"><span style="color:#ABB2BF;">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意：</p><ol><li><strong>字符串字面值可以取地址</strong></li></ol>`,3);function t(c,i){return n(),l("div",null,[a("more"),o])}const y=s(e,[["render",t],["__file","c__初探.html.vue"]]);export{y as default};
